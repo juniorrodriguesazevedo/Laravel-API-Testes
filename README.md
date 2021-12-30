@@ -17,11 +17,7 @@ Ao propagar o banco ele já vem com alguns usuários cadastrados:
 ### Lista de todas as APIs:
 Method   | Descrição | Rota
 :--------- | :------ | :------
-POST | Registrar usuário | `localhost:8000/api/register`
-POST | Login de usuário | `localhost:8000/api/login`
-GET | Retorna usuário logado | `localhost:8000/api/profile`
-POST | Cadastrar telefone | `localhost:8000/api/phones`
-GET | Lista de todos os telefones | `localhost:8000/api/phones`
-GET | Pega telefone por ID | `localhost:8000/api/phones/id`
-PUT | Atualizar telefone por ID | `localhost:8000/api/phones/id`
-POST | Deletar telefone por ID | `localhost:8000/api/phones/id`
+GET | Lista de usuários | `localhost:8000/api/users`
+POST | Cadastrar usuário | `localhost:8000/api/users`
+PUT | Atualizar usuário por ID | `localhost:8000/api/users/id`
+POST | Deletar usuário por ID | `localhost:8000/api/users/id`
